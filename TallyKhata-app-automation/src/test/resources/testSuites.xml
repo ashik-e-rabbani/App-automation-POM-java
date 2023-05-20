@@ -1,0 +1,7 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Android Automation Suites">
+    <suite-files>
+        <suite-file path="regSuite.xml" />
+<!--        <suite-file path="suite2.xml" />-->
+    </suite-files>
+</suite>
