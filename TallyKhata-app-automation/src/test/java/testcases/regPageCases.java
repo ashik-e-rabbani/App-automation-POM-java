@@ -30,5 +30,13 @@ RegPage regPage;
         Assert.assertEquals(true, regPage.clickNextButton());
     }
 
+    @Test(priority = 3)
+    public void isOtpEntered() throws IOException, InterruptedException {
+        Assert.assertEquals(true, regPage.enterOtp());
+    }
+    @Test(priority = 4)
+    public void isNextButtonClickedAfterOtp() throws IOException, InterruptedException {
+        Assert.assertEquals(true, regPage.clickNextButtonAfterOtp());
+    }
 
 }
