@@ -2,7 +2,7 @@
 <suite thread-count="1" verbose="1" name="Registration Suite">
     <test name="Registration">
         <classes>
-            <class name="testcases.regPageCases"/>
+            <class name="testcases.RegOrLoginPageCases"/>
         </classes>
     </test>
 </suite>
